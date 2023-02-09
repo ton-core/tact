@@ -43,7 +43,7 @@ function resolveLibraryPath(filePath: string, name: string): string {
 export function precompile(ctx: CompilerContext, sourceFile: string) {
 
     // Load stdlib
-    const stdlib = fs.readFileSync(__dirname + '/../../stdlib/stdlib.tact', 'utf-8');
+    const stdlib = fs.readFileSync(path.resolve(__dirname, '..', '..', 'stdlib', 'stdlib.tact'), 'utf-8');
     const code = fs.readFileSync(sourceFile, 'utf8');
 
     //
