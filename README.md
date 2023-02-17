@@ -1,3 +1,8 @@
+# TACT has been moved to [tact-lang/tact](https://github.com/tact-lang/tact)
+⚠️ This repository marked as archived and no longer supported. 
+
+
+  
 # TACT language compiler
 
 A next-gen smart contract language for TON.
